@@ -29,7 +29,5 @@ class MainActivity : AppCompatActivity() {
                 .addTabItem("发现", R.drawable.find_selected, R.drawable.find_normal, FindFragment::class.java)
                 .addTabItem("热门", R.drawable.hot_selected, R.drawable.hot_normal, HotFragment::class.java)
                 .addTabItem("我的", R.drawable.mine_selected, R.drawable.mine_normal, MineFragment::class.java)
-
-
     }
 }
