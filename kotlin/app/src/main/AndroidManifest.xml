@@ -22,14 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".activity.HotPlayActivity">
         </activity>
-=======
+
         <!--<activity android:name="com.example.kotlin_retrofit.Main2"/>-->
         <!---->
         <activity android:name=".find.FindApi.Main2"/>
->>>>>>> af69f5084585d0386389496ddc9da31a1172cd26
+
     </application>
 
 </manifest>
