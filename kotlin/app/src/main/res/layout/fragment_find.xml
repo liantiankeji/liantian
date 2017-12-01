@@ -5,6 +5,9 @@
     android:background="#ff99"
     tools:context="com.bwie.kotlin.ui.fragment.fragment.FindFragment">
 
-
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyc"></android.support.v7.widget.RecyclerView>
 
 </FrameLayout>
