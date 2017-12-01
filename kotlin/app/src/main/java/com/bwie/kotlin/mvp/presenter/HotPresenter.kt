@@ -27,6 +27,6 @@ class HotPresenter(rankFragment: RankFragment, hotModel: HotModel) {
                     var itemList = json.itemList
                     rankFragment.setData(itemList!!)
 
-                }
+                 }
     }
 }
