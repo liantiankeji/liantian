@@ -8,5 +8,4 @@ interface MyModel {
 
     fun myContext(context: Context): Flowable<MyBean.MyBean>
 
-
 }
