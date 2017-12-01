@@ -36,6 +36,7 @@ class MyAdapter2 (var context:Context,var list:List<Bean2.Item>): RecyclerView.A
                 lin!!.onItemClick(holder!!.player, position)
             }
             }
+            
         }
     }
     class viewhoder (itemview:View):RecyclerView.ViewHolder(itemview){
