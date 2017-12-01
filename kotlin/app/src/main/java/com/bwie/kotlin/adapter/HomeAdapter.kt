@@ -53,15 +53,13 @@ class HomeAdapter(var context: Context, var video: MyBean.MyBean) : RecyclerView
             holder as MyViewHolder2
         } else {
             holder as MyViewHolder
-
             holder.title.text = video.issueList[0].itemList[position].data.title
             holder.videoplay.setUp(video.issueList[0].itemList[position].data.playUrl, JZVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, video.issueList[0].itemList[position].data.title)
             Log.i("xx", video.issueList[0].itemList[position].data.actionUrl + "*******************")
             Log.i("xx", video.issueList[0].itemList[position].data.actionUrl + "*******************")
             holder.videoplay.thumbImageView.scaleType = ImageView.ScaleType.FIT_XY
-            Picasso.with(context).load(video.issueList[0].itemList[position].data.image).into(holder.videoplay.thumbImageView)
+            Picasso.with(context).load("http://img5.imgtn.bdimg.com/it/u=1251140283,1039316348&fm=27&gp=0.jpg").into(holder.videoplay.thumbImageView)
         }
-
     }
 
     class MyViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView) {

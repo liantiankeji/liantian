@@ -26,6 +26,7 @@ class HotPresenter(rankFragment: RankFragment, hotModel: HotModel) {
                     val json = gson.fromJson(data, HotData::class.java)
                     var itemList = json.itemList
                     rankFragment.setData(itemList!!)
+
                 }
     }
 }

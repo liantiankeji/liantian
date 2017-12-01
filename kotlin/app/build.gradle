@@ -44,6 +44,7 @@ dependencies {
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
     compile 'cn.jzvd:jiaozivideoplayer:6.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
+<<<<<<< HEAD
     compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
     compile 'com.squareup.okio:okio:1.5.0'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
@@ -52,6 +53,11 @@ dependencies {
     compile 'com.facebook.fresco:fresco:0.12.0'
     compile 'com.shuyu:GSYVideoPlayer:2.0.8'
     testCompile 'junit:junit:4.12'
+=======
+    //find
+    compile 'fm.jiecao:jiecaovideoplayer:4.8.3'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+>>>>>>> af69f5084585d0386389496ddc9da31a1172cd26
 }
 repositories {
     mavenCentral()
