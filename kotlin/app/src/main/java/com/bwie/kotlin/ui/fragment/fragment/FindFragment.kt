@@ -23,12 +23,8 @@ class FindFragment : Fragment()  , InterView {
         recycc.adapter=adapter
         adapter!!.setOnItemClickLinean(object : OnItemClickListener {
             override fun onItemClick(view: View, postion: Int) {
-            //   Toast.makeText(activity,"ss"+postion, Toast.LENGTH_SHORT).show()
                val intent= Intent(activity, Main2::class.java)
-////               startActivity(intent)
-//               startActivity(intent)
                 startActivity(intent)
-
             }
         })
     }
