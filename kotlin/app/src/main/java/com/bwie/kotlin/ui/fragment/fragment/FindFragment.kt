@@ -31,14 +31,11 @@ class FindFragment : Fragment()  , InterView {
     lateinit var recycc:RecyclerView
     var adapter: MyAdapter?=null
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-
         val view = inflater!!.inflate(R.layout.fragment_find, container, false)
         recycc =view.findViewById<RecyclerView>(R.id.recyc)
-
         recycc.layoutManager= StaggeredGridLayoutManager(2, LinearLayout.VERTICAL)
         var  presenter= Presenter(this)
         presenter.getm(activity)
         return view
     }
-
 }
