@@ -51,7 +51,7 @@ dependencies {
     compile 'com.android.support:design:23.2.0'
 
     compile 'com.facebook.fresco:fresco:0.12.0'
-    compile 'com.shuyu:GSYVideoPlayer:2.0.8'
+    //compile 'com.shuyu:GSYVideoPlayer:2.0.8'
     testCompile 'junit:junit:4.12'
 
     //find
